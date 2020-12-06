@@ -13,7 +13,7 @@ public class Task4 {
         int index = 0;
         for (int z = 0; z < massive.length - 2; z++) {
             int s = 0;
-            for (int j = 0; j < z; j++) {
+            for (int j = 0; j < z+3; j++) {
                 s = s + massive[j];
             }
             if (s > summa) {
