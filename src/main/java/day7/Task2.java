@@ -15,7 +15,8 @@ public class Task2 {
         Player.info();
         Player p7 = new Player(rand.nextInt(10) + 90);
         Player.info();
-        for(int i=0;i<100;i++)
+        
+        for (int i = 0; i < 100; i++)
             p3.run();
         Player.info();
     }
